@@ -1,3 +1,5 @@
+import "./formInput.scss";
+
 const FormInput = ({ label, ...otherProps }) => {
   return (
     <div className="group">
