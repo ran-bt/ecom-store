@@ -6,6 +6,7 @@ import {
 import Button from "../button/Button";
 import FormInput from "../form-input/FormInput";
 import "./signUpForm.scss";
+
 // will be the initial state of the form fields below
 const defaultFormFeilds = {
   displayName: "",
@@ -40,6 +41,7 @@ const SignUpForm = () => {
         email,
         password
       );
+
       await createUserDocfromAuth(user, { displayName });
 
       resetFormFields();

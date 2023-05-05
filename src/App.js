@@ -1,6 +1,5 @@
 // import Categories from "./components/categories/Categories";
 import { Route, Routes } from "react-router-dom";
-import SignUpForm from "./components/signup-form/SignUpForm";
 import Home from "./routes/home/Home";
 import Navigation from "./routes/navigation/Navigation";
 import UserAuthenticationForm from "./routes/authenticationForm/AuthenticationForm";
